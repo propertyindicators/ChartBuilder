@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{0C4A28FC-49B2-44D7-915E-690A91C4DC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesLogic", "BussinesLogic\BussinesLogic.csproj", "{E8559E72-4381-48B7-9FCC-EC7E6E1DA5E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forms", "Forms\Forms.csproj", "{EC6232B9-71B3-4EB3-9828-72CEE55B99C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C4A28FC-49B2-44D7-915E-690A91C4DC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4A28FC-49B2-44D7-915E-690A91C4DC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4A28FC-49B2-44D7-915E-690A91C4DC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4A28FC-49B2-44D7-915E-690A91C4DC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8559E72-4381-48B7-9FCC-EC7E6E1DA5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8559E72-4381-48B7-9FCC-EC7E6E1DA5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8559E72-4381-48B7-9FCC-EC7E6E1DA5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8559E72-4381-48B7-9FCC-EC7E6E1DA5E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6232B9-71B3-4EB3-9828-72CEE55B99C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6232B9-71B3-4EB3-9828-72CEE55B99C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6232B9-71B3-4EB3-9828-72CEE55B99C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6232B9-71B3-4EB3-9828-72CEE55B99C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DBF0BD8-4936-4D61-8729-DF4D40812F72}
+	EndGlobalSection
+EndGlobal

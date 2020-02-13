@@ -1,2 +1,1 @@
-# ChartBuilder
-Builds charts of math functions
+This program builds charts of single-argument math functions. The program is designed to help children learn math, as well as to study some aspects of programming in C # (WinForms, GDI, code generation «on the fly», reflection, late binding, recursion for parsing mathematical expressions).
