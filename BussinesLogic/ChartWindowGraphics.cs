@@ -138,7 +138,7 @@ namespace ChartBuilder
 			List<ChartLine> AxisesWithDashes = CookAxisLines(Options, out float xAxisLocation, out float yAxisLocation);
 			int step = DetectStep(Options); // dashes and grid lines step in pixels
 			List<int> dashesX = CookDashList(Options.MinX, Options.MaxX, step);
-			List<int> dashesY = CookDashList(Options.MinX, Options.MaxX, step);
+			List<int> dashesY = CookDashList(Options.MinY, Options.MaxY, step);
 			Offsets offsets = Offsets.Cook(Options, xAxisLocation, yAxisLocation);
 			AxisesWithDashes.AddRange(CookDashLines(Options, offsets, xAxisLocation, yAxisLocation, dashesX, dashesY));
 			List<ChartString> DashesSigns = CookDashSigns(Options, offsets, dashesX, dashesY);
@@ -309,7 +309,7 @@ namespace ChartBuilder
 				if (i != 0 && ty - i.ToString().Length * AproximateCharHigh >= 0
 					&& ty + i.ToString().Length * AproximateCharHigh <= options.SizeY)
 				{
-					result.Add(new ChartString { Location = new PointF(offsets.SignOffsetX, ty - AproximateCharHigh), Text = i.ToString() });
+					result.Add(new ChartString { Location = new PointF(offsets.SignOffsetY, ty - AproximateCharHigh), Text = i.ToString() });
 				}
 			}
 			return result;

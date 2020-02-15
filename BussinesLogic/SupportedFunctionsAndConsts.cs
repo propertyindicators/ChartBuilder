@@ -9,7 +9,7 @@ namespace ChartBuilder
 			{"log", new MathFunc {Name="Math.Log", ParametersNumber = 2}},
 			{"ln", new MathFunc {Name="Math.Log", ParametersNumber = 1}},
 			{"lg", new MathFunc {Name="Math.Log10", ParametersNumber = 1}},
-			{"exp", new MathFunc {Name="Math.Exp", ParametersNumber = 2}},
+			{"exp", new MathFunc {Name="Math.Exp", ParametersNumber = 1}},
 			{"abs", new MathFunc {Name="Math.Abs", ParametersNumber = 1}},
 			{"sin", new MathFunc {Name="Math.Sin", ParametersNumber = 1}},
 			{"cos", new MathFunc {Name="Math.Cos", ParametersNumber = 1}},
